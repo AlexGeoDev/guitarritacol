@@ -13,6 +13,8 @@ const Bio = () => {
               alt="Calor Jimenez playing guitar" />
           </picture>
           <div className={styles.bio_text}>
+            <h3 className={styles.bio_titleCard}>Origen</h3>
+            <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Quo, exercitationem consequuntur? Culpa perspiciatis natus nam at. 
               Magnam placeat quod, expedita nesciunt recusandae exercitationem 
@@ -22,6 +24,8 @@ const Bio = () => {
 
         <section className={styles.bio_card}>
           <div className={styles.bio_text}>
+            <h3 className={styles.bio_titleCard}>Study and Skills</h3>
+            <br />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Quo, exercitationem consequuntur? Culpa perspiciatis natus nam at. 
               Magnam placeat quod, expedita nesciunt recusandae exercitationem 

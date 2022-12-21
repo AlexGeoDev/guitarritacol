@@ -6,49 +6,59 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding: 1rem 0 0 50px;
 }
 
 .bio_card{
-  /* border: 2px #d81ac5 solid; */
-  padding-left: 70px;
+  border: 1px #fefafe solid;
+  border-radius: 18px;
+  margin: 5px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.bio_picture {
-  margin-top: 2rem;
-  border: 1px cyan solid;
-  /* display: flex;
-  justify-content: center; */
+.bio_titleCard {
+  color: white;
 }
 
-/* .bio_img {
-  padding-left: 50px;
-} */
-
 .bio_text{
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
   width: 200px;
   margin-top: 1rem;
-  color: aquamarine;
-  /* display: flex;
-  justify-content: center !important; */
+  color: rgb(173, 221, 235);
+}
+
+@media (min-width: 425px) {
+  .bio_card {
+    margin-left: 50px;
+    padding-left: 0;
+  }
+  .bio_img {
+    width: 250px;
+  }
+  .bio_text {
+    width: 250px;
+  }
 }
 
 @media (min-width: 768px) {
   .bio {
-    width: 768px;
-    margin: 5rem auto;
+    border: 2px red solid;
+    width: 80vw;
+    height: 80vh;
+    margin: 3rem auto;
     background-image: url('/images/clasicGuitar_medium.png');
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
   }
-  .bio_card {
-    flex-direction: row;
-    width: 500px;
+  .bio_card {    
+    width: 60vw;
+    margin-left: 20%;
+    padding-left: 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
   }
   .bio_picture {
@@ -57,24 +67,33 @@
   }
 }
 
+@media (min-width: 900px) {
+  .bio {
+    border: 1px rgb(184, 1, 148) solid;
+    background-image: url('/images/clasicGuitar_big.png');
+  }
+  .bio_card {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 1024px) {
   .bio {
-    width: 1024px;
+    /* width: 1024px; */
     height: 90vh;
     margin: 1rem auto;
-    background-image: url('/images/clasicGuitar_big.png');
-  background-repeat: no-repeat;
+    /* background-image: url('/images/clasicGuitar_big.png'); */
+    /* background-repeat: no-repeat; */
   }
   .bio_picture {
 
     display: flex;
     justify-content: flex-end;
   }
-  .bio_text {
-    
+  /* .bio_text {    
     width: 342px;
-    display: flex;
-    justify-content: flex-end !important;
-  }
+  } */
 }
 
