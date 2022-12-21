@@ -27,7 +27,6 @@
 }
 
 .bio_text{
-  /* border: 2px blue solid; */
   width: 200px;
   margin-top: 1rem;
   color: rgb(173, 221, 235);
@@ -85,7 +84,7 @@
 
 @media (min-width: 1024px) {
   .bio {
-    width: 90vw;
+    width: 80vw;
     margin: 1rem auto;
   }
   .bio_card {
@@ -97,7 +96,14 @@
   }
   .bio_text {
     width: 260px;
-  }
-  
+  }  
 }
 
+@media (min-width: 1200px) {
+  .bio {
+    width: 1024px;
+  }
+  .bio_card {
+    width: 60%;
+  }
+}

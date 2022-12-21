@@ -41,10 +41,8 @@ const Bio = () => {
 
         <section className={styles.bio_card}>
           <picture className={styles.bio_picture}>
-            <img 
-              className={styles.bio_img}
-              src="/images/CarlosExperience.png"
-              alt="Calor Jimenez playing guitar" />
+            <source media='(min-width: 768px)' srcSet='/images/CarlosExperience.png'/>
+            <img className={styles.bio_img} src="/images/CarlosExperience_small.png" alt="Calor Jimenez playing guitar" />
           </picture>
           <div className={styles.bio_text}>
             <h3 className={styles.bio_titleCard}>Work and Experience</h3>

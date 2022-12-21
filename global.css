@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   margin: auto;
   padding: auto; 
-  background-color: rgb(19, 30, 61);  
+  background-color: rgb(19, 30, 61);
 }
 
 .nav {
@@ -53,6 +53,7 @@ body {
   min-height: auto;
   transition: all 0.3s;
   background-color: #24385b;
+  z-index: 1;
 }
 
 .nav__menu-list.active {

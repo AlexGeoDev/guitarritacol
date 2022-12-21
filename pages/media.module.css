@@ -1,8 +1,23 @@
 .media {
   background-image: url('/images/bass_small.png');
   background-repeat: no-repeat;
-  height: 1500px;
+  background-position-y: 2rem;
+  height: 90vh;
+  color: white;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.media_card {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 @media (min-width: 600px) {
   .media {
