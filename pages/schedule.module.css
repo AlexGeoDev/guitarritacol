@@ -1,0 +1,26 @@
+.schedule {
+  height: 630px;
+  background-image: url('/images/electricGuitar_small.png');
+  background-repeat: no-repeat;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+.schedule_events{
+  width: 70vw;
+}
+
+@media (min-width: 600px) {
+  .schedule {
+    background-image: url('/images/electricGuitar_medium.png');
+
+  }  
+}
+
+@media (min-width: 900px) {
+  .schedule {
+    background-image: url('/images/electricGuitar_big.png');
+
+  }  
+}

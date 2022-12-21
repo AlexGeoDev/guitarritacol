@@ -1,0 +1,21 @@
+/* .wallpaper {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+.wallpaper_image {
+  margin-top: 5rem;
+  position: fixed;
+  z-index: 0;
+} */
+
+.picture {
+  margin-top: 2rem;
+}
+
+.img {
+  width: 200px;
+  height: auto;
+
+}
+

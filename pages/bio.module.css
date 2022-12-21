@@ -1,0 +1,80 @@
+.bio {
+  background-image: url('/images/clasicGuitar_small.png');
+  background-repeat: no-repeat;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bio_card{
+  /* border: 2px #d81ac5 solid; */
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio_picture {
+  margin-top: 2rem;
+  border: 1px cyan solid;
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* .bio_img {
+  padding-left: 50px;
+} */
+
+.bio_text{
+  border: 2px blue solid;
+  width: 200px;
+  margin-top: 1rem;
+  color: aquamarine;
+  /* display: flex;
+  justify-content: center !important; */
+}
+
+@media (min-width: 768px) {
+  .bio {
+    width: 768px;
+    margin: 5rem auto;
+    background-image: url('/images/clasicGuitar_medium.png');
+    background-repeat: no-repeat;
+    
+  }
+  .bio_card {
+    flex-direction: row;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  .bio_picture {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bio {
+    width: 1024px;
+    height: 90vh;
+    margin: 1rem auto;
+    background-image: url('/images/clasicGuitar_big.png');
+  background-repeat: no-repeat;
+  }
+  .bio_picture {
+
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bio_text {
+    
+    width: 342px;
+    display: flex;
+    justify-content: flex-end !important;
+  }
+}
+

@@ -1,0 +1,17 @@
+.contact {
+  background-image: url('/images/guitarY_small.png');
+  background-repeat: no-repeat;
+  height: 1500px;
+}
+
+@media (min-width: 600px) {
+  .contact {
+    background-image: url('/images/guitarY_medium.png');
+  }
+}
+
+@media (min-width: 900px) {
+  .contact {
+    background-image: url('/images/guitarY_big.png');
+  }
+}

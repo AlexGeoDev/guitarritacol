@@ -1,0 +1,17 @@
+.media {
+  background-image: url('/images/bass_small.png');
+  background-repeat: no-repeat;
+  height: 1500px;
+}
+
+@media (min-width: 600px) {
+  .media {
+    background-image: url('/images/bass_medium.png');
+  }
+}
+
+@media (min-width: 900px) {
+  .media {
+    background-image: url('/images/bass_big.png');
+  }
+}
