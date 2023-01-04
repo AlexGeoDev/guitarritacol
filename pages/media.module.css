@@ -1,42 +1,58 @@
 .media {
-  background-image: url('/images/bass_small.png');
-  background-repeat: no-repeat;
-  background-position-y: 2rem;
-  margin: 2rem auto;  
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #33b1ff;
 }
 
 .media_card {
-  border: 1px white;
-  border-radius: 15px;
-  width: 80vw;
+  /* border-radius: 15px; */
+  /* width: 80vw; */
   margin-top: 2rem;
   color: white;
+  background-color: #24385b;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
+.media_card_videoContainer {
+  width: 100%;
+}
+.media_card__description {
+  padding: 1rem;
+}
+
 .mediaCard_video {
-  margin-top: 1rem;
+  height: auto;
+  width: 100%;
 }
 
 .mediaCard_p {
-  width: 90vw;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
-  .media {
+  /* .media {
     background-image: url('/images/bass_medium.png');
-  }
+  } */
   .media_card {
-    width: 70vw;
-    margin: 0 auto;
+    width: 90vw;
+    margin: 2rem auto;
   }
 }
 
 @media (min-width: 900px) {
-  .media {
+  /* .media {
     background-image: url('/images/bass_big.png');
+  } */
+  .media_card {
+    width: 80vw;
   }
 }
