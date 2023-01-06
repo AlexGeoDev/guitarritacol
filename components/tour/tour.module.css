@@ -15,12 +15,12 @@
 }
 
 .tour_eventsData {
+  margin: 10px 0 10px 0;
   width: 50vw;
   height: 16vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .tour_button {
