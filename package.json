@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "next": "^13.0.7",
     "p": "^0.2.0",
     "prop-types": "^15.8.1",

@@ -108,18 +108,3 @@ body {
       width: 100%;
   }   
 }
-
-/* @media (min-width: 768px) {
-  body {
-    box-sizing: border-box;
-    margin: auto;
-    padding: auto;
-    background-image: url('/images/guitarra2.png');
-  }
-}
-
-@media (min-width: 900px) {
-  body {
-    background-image: url('/images/guitarra80.png');
-  }
-} */

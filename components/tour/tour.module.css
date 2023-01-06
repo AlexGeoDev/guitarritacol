@@ -1,0 +1,68 @@
+.tour {
+  margin-top: 1rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;  
+}
+
+.tour_events {
+  width: 90vw;
+  margin-bottom: 15px;
+  background-color: #24385b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tour_eventsData {
+  width: 50vw;
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.tour_button {
+  padding: 0.6rem;
+  font-size: 110%;
+  border: 0;
+  border-radius: 0.25rem;
+  background-color: #33b1ff;
+  color: #eff3f8;
+}
+
+@media (min-width: 425px) {
+  .tour_events {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tour_eventsData {
+    width: 70vw;
+    height: 10vh;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }  
+}
+
+@media (min-width: 768px) {
+  .tour_events{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .tour_eventsData {
+    height: 7vh;
+    width: 50vw;
+  }  
+}
+@media (min-width: 1024px) {
+  .tour_events {
+    width: 70vw;
+    height: 12vh;
+  }
+  .tour_eventsData {
+    width: 40vw;
+  } 
+}
