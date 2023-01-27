@@ -79,6 +79,7 @@ const Footer = () => {
           <div className={styles.author}>
             <Link 
               href='https://alexgeodev.vercel.app/'
+              target='_blank'
               className={styles.author_link}>
               <span>Created by Alexgeodev</span>            
             </Link>
