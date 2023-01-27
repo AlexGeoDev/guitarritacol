@@ -81,11 +81,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .futer {
-    width: 70vw;
+    width: 75vw;
   }
   .futer_main {
-    width: 70vw;
+    width: 75vw;
   }
 }

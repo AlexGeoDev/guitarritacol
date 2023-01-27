@@ -48,11 +48,11 @@
     align-items: center;
   }
   .home_presentation {
-    width: 70vw;
+    width: 75vw;
   }  
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1224px) {
   .home_presentation {
     width: 60vw;
   }  
