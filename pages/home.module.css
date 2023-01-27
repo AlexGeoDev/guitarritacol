@@ -1,7 +1,5 @@
 .home {
-  /* padding-left: 60px; */
-  height: 87vh;
-  background-image: url('/images/guitarra_small.png');
+  /* background-image: url('/images/guitarra_small.png'); */
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -9,8 +7,8 @@
 }
 
 .home_presentation {
-  width: 70vw;
-  padding-left: 80px;
+  margin-top: 2rem;
+  width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,43 +16,44 @@
 
 @media (min-width: 425px) {
   .home_presentation {
-    width: 80vw;
-    padding-left: 100px;
+    width: 90vw;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .home {
-    max-width: 600px;
-    height: 80vh;
-    margin: 4rem auto;
-    background-image: url('/images/guitarra_medium.png');
+    /* background-image: url('/images/guitarra_medium.png'); */
   }
   .home_presentation{
-    width: 75vw;
-    padding-left: 35%;
+    width: 85vw;
   }
 }
 
 @media (min-width: 900px) {
   .home {
-    max-width: 900px;
-    height: 85vh;
-    margin: 1rem auto;
-    background-image: url('/images/guitarra_big.png');
+    margin: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
   }
   .home_presentation {
-    font-size: 1.5rem;
+    width: 80vw;
   }
 }
 
 @media (min-width: 1024px) {
   .home {
-    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .home_presentation {
-    font-size: 1.5rem;
-    padding-left: 40%;
-    width: 80vw;
-  }
+    width: 70vw;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .home_presentation {
+    width: 60vw;
+  }  
 }

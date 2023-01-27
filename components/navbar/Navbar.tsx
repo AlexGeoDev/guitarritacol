@@ -21,10 +21,7 @@ const MENU_LIST = [
     text: "Schedule",
     href: "/schedule"
   },
-  {
-    text: "Contact",
-    href: "/contact"
-  },
+  
 ]
 
 const Navbar = () => {

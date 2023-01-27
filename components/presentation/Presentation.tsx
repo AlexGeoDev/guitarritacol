@@ -5,13 +5,26 @@ const Presentation = () => {
   return (
     <>
       <div className={styles.presentation}>
-        <div className={styles.presentation_title}>
-          <h1>Carlos Jimenez</h1>
+        <div>
+          <picture>
+            <source media="(min-width: 768px)" srcSet='./images/body_medium.jpg'/>
+            <img 
+              src="./images/body_small.jpg" 
+              alt="Musician Carlos Jimenez playing guitar"
+              className={styles.presentation_imageSmall}
+              />
+            
+          </picture>
         </div>
-        <br />
-        <div className={styles.presentation_subtitle}>
-          <h2>Nazi chibchombiano, Guitarist, researcher and 
-          composer based in Germany</h2>
+        <div className={styles.presentation_text}>
+          <header className={styles.presentation_title}>
+            <h1 className={styles.presentation_h1}>Carlos Jimenez</h1>
+          </header>
+          <br />          
+          <div className={styles.presentation_subtitle}>
+            <h2>Happy colombian, guitarist, researcher and 
+            composer based in Germany, also a kindermusic teacher </h2>
+          </div>
         </div>
       </div>
     </>

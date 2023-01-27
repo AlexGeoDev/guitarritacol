@@ -1,6 +1,7 @@
 import React from 'react';
 import Presentation from '../components/presentation/Presentation';
 import styles from './home.module.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
   return (
@@ -10,8 +11,6 @@ const Home = () => {
           <Presentation />
         </div>
       </main>
-      {/* <style jsx>{`
-      `}</style> */}
     </>
   )
 }
